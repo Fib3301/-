@@ -1,0 +1,10 @@
+a=3.5;
+b=-0.7;
+i=2;
+x=0.8;
+y=power(10, 4)*power(sin(i), 2)-(0.32*power(x, 3)+4*x+b)/cos(i*a)*power(0.32*power(x, 3)-b, 1/6)+abs(b)
+mas=[a b i x y];
+mas1=abs(mas);
+mas1=sort(mas1, 'descend')
+mas2=[mas1(1) mas1(3:4)]
+sr=mean(mas2)
